@@ -1,2 +1,1 @@
-# SwiftBookPlaygrounds
 Swift studing
