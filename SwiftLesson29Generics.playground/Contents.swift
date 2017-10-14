@@ -78,8 +78,8 @@ struct Point<T: Numeric> {
     var y: T
 }
 
-var floatPoint = Point(x: Float(3), y: 5)
-var doublePoint = Point(x: 4, y: 4.5)
+var floatPoint = Point(x: Float(3), y: Float(5))
+var doublePoint = Point(x: 4.3, y: 4.5)
 var intPoint = Point(x: 4, y: 5)
 
 
@@ -98,4 +98,4 @@ func bubbleSort<T: Comparable>(array: [T]) -> [T] {
 }
 
 var intArray2 = [1,4,6,2,4,7,9,345,342,5,15,12,52,52,35,23,45,6]
-intArray2 = bubbleSort(array: intArray)
+intArray2 = bubbleSort(array: intArray2)
